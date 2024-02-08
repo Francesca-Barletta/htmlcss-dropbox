@@ -60,6 +60,9 @@ body{
 }
 .down-arrow{
     margin-top: auto;
+    padding-bottom: 20px;
+    font-size: 60px;
+    font-weight: 800;
 }
 
 /*STYLE*/
