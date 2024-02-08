@@ -12,6 +12,13 @@ a{
     text-decoration: none;
     color: currentColor;
 }
+img{
+    max-width: 100%;
+}
+button{
+    border: none;
+    background-color:currentColor;
+}
 /*LAYOUT*/
 .container, .container-sm{
     margin: 0 auto;
@@ -25,6 +32,19 @@ a{
 .container-sm{
     width: 55%;
 }
+.page-header .nav-row{
+  display: flex;
+  justify-content: space-between;
+}
+.page-header .logo-menu, .login-menu{
+    display:flex;
+}
+
 
 /*STYLE*/
 
+.page-header .header__container{
+    background-color: white;
+    padding: 24px 16px;
+    border: 1px solid black;
+}
