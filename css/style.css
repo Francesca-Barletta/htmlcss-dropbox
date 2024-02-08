@@ -47,6 +47,9 @@ body{
 .col-4{
     width: calc(4* 100% / 12);
 }
+.col-3{
+    width: calc(3* 100% / 12);
+}
 .hero .hero--row{
     display: flex;
 }
