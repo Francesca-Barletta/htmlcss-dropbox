@@ -14,10 +14,10 @@ a{
 }
 img{
     max-width: 100%;
+    display: block;
 }
 button{
     border: none;
-    background-color:currentColor;
 }
 /*LAYOUT*/
 .container, .container-sm{
@@ -38,6 +38,7 @@ button{
 }
 .page-header .logo-menu, .login-menu{
     display:flex;
+    align-items: center;
 }
 
 
@@ -47,4 +48,20 @@ button{
     background-color: white;
     padding: 24px 16px;
     border: 1px solid black;
+}
+button.button-sm{
+    background-color: rgb(0, 97, 255);
+    color: white;
+    padding: 10px 16px;
+}
+
+.logo-menu > li{
+    padding-right: 16px;
+}
+.login-menu :nth-child(2){
+    padding: 0 32px;
+}
+
+.login-menu :nth-last-child(2){
+    padding-right: 16px;
 }
