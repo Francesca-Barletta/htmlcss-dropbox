@@ -101,11 +101,23 @@ main .hero{
 }
 .hero .hero--body{
     margin-top: 64px;
+    margin-bottom: 100px;
 }
-p{
+p, label{
     font-size: 16px;
     font-weight: 400;
 }
 .button.hero--button{
     margin: 34px 0;
+}
+h3{
+    font-size: 40px;
+    font-weight: 700;
+    margin-bottom: 50px;
+}
+.container-sm.business-top{
+    margin-bottom: 50px;
+}
+.ft-ms{
+    margin-right: 45px;
 }
