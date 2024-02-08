@@ -1,5 +1,30 @@
+/*RESET*/
+
 *{
     margin: 0;
     padding: 0;
     box-sizing: border-box;
 }
+ul, ol, menu{
+    list-style: none;
+}
+a{
+    text-decoration: none;
+    color: currentColor;
+}
+/*LAYOUT*/
+.container, .container-sm{
+    margin: 0 auto;
+}
+.container-lg{
+    width: 100%
+}
+.container{
+    width:65%;
+}
+.container-sm{
+    width: 55%;
+}
+
+/*STYLE*/
+
