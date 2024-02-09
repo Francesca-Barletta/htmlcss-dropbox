@@ -159,15 +159,21 @@ h4{
     text-align: center;
     line-height: 38px;
 }
-.card-header, .card-body{
-    border: 1px solid grey;
+.card-header{
+    border-bottom: 1px solid grey;
 }
 .card-body{
     padding: 30px;
+    height: 100%;
+    
 }
-
-.col-4.col-4-plan{
-    padding:0  12px;
+.card{
+    height: 100%;
+    border: 1px solid grey;
+    
+}
+.col-4-plan, .col-4.plan-lg{
+    padding:12px;
 }
 .container-sm.business-bottom{
     padding-bottom: 20px;
