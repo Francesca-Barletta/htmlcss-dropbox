@@ -92,8 +92,11 @@ body{
     min-height: 633px;
     
 }
+.row.brand-row{
+    align-items: center;
+}
 /*STYLE*/
-section:not(.page-header){
+section:not(.page-header, .designit){
     margin-bottom: 100px;
 }
 .page-header .header__container{
@@ -286,4 +289,19 @@ h4{
     margin: auto;
     padding: 75px;
     filter: invert(100%);
+}
+.brand-color{
+    background-color: rgb(180, 208, 231); 
+    margin: 0 12px;
+}
+.col-4.brand-tx{
+    flex-grow: 1;
+    color: rgb(97, 8, 43);
+}
+.row.brand-row{
+    padding: 100px;
+    align-items:first baseline;
+}
+.button.bt-white.no-brd{
+    border: none;
 }
