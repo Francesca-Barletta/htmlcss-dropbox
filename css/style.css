@@ -92,9 +92,7 @@ body{
     min-height: 633px;
     
 }
-.row.brand-row{
-    align-items: center;
-}
+
 /*STYLE*/
 section:not(.page-header, .designit){
     margin-bottom: 100px;
@@ -299,11 +297,17 @@ h4{
     color: rgb(97, 8, 43);
 }
 .row.brand-row{
-    padding: 100px;
-    align-items:first baseline;
+    padding: 130px 0;
 }
 .button.bt-white.no-brd{
     border: none;
+    display: inline-block;
+    margin: 15px 25px;
+    padding: 10px 40px;
+}
+h3.bordeaux{
+    display: inline-block;
+    margin-bottom: 0;
 }
 a.faq--sp{
     text-decoration: none;
