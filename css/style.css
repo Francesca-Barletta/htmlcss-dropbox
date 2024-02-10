@@ -24,7 +24,7 @@ body{
     padding: 0 12px;
 }
 .container-lg{
-   width: 100%;
+   max-width: 1924px;
 }
 .container{
     max-width: 1224px;
@@ -47,6 +47,12 @@ body{
 }
 .col-4{
     width: calc(4* 100% / 12);
+}
+.col-6{
+  height: 50%;
+  width: 50%;
+  display: flex;
+
 }
 .hero .hero--row{
     display: flex;
@@ -80,6 +86,12 @@ body{
 .col-4.partner-img{
     flex-grow: 1;
 }
+.col-4.col-4_6{
+    display: flex;
+    flex-wrap: wrap;
+    min-height: 633px;
+    
+}
 /*STYLE*/
 section:not(.page-header){
     margin-bottom: 100px;
@@ -106,7 +118,7 @@ a.buttom.bt-sm{
     padding: 5 16px;
     line-height: 20px;
 }
-a.buy-now{
+a.blue-a{
     color: blue;
     margin: 5px;
 }
@@ -236,4 +248,42 @@ h4{
 }
 .col-4.col-bs > *{
     margin: 17px 0;
+}
+.col-6.cl-green{
+   background-color: rgb(162, 211, 155);
+   border: 15px solid rgba(255, 255, 255, 0.5);
+}
+.col-6.cl-bordeaux{
+    background-color: rgb(97, 8, 43);
+    
+}
+.col-6.cl-cyan{
+    background-color: rgb(0, 147, 206);
+}
+.col-6.cl-red-v{
+    background-color: rgb(255, 28, 28);
+}
+.col-6.cl-red{
+    background-color: rgb(213, 0, 31);
+}
+.col-6.cl-brand{
+    background-color: rgb(180, 208, 231);
+}
+.col-6.cl-blue{
+    background-color: rgb(13, 36, 129);
+}
+.col-6.cl-yellow{
+    background-color: rgb(255, 216, 48);
+}
+.col-4.col-des{
+    background-color: rgb(245, 245, 245);
+    padding: 45px;   
+}
+.col-des > *{
+    margin-bottom: 45px;
+}
+.col-6 img{
+    margin: auto;
+    padding: 75px;
+    filter: invert(100%);
 }
