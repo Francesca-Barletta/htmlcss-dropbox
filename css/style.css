@@ -305,3 +305,13 @@ h4{
 .button.bt-white.no-brd{
     border: none;
 }
+a.faq--sp{
+    text-decoration: none;
+    color: currentColor;
+}
+.faq{
+    display: flex;
+    justify-content: space-between;
+    margin: 40px 0;
+    padding-right: 24px;
+}
