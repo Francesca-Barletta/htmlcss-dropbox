@@ -34,6 +34,7 @@ body{
 }
 .row{
     display: flex;
+    flex-wrap: wrap;
 }
 .page-header .nav--row{
   display: flex;
@@ -76,9 +77,13 @@ body{
     flex-grow: 1;
 
 }
-
+.col-4.partner-img{
+    flex-grow: 1;
+}
 /*STYLE*/
-
+section:not(.page-header){
+    margin-bottom: 100px;
+}
 .page-header .header__container{
     background-color: white;
     padding: 24px 16px;
@@ -158,19 +163,19 @@ h4{
 .ft-ms{
     margin-right: 45px;
 }
-.card-header{
+.card-header-pl{
     text-align: center;
     line-height: 38px;
 }
-.card-header{
+.card-header-pl{
     border-bottom: 1px solid grey;
 }
-.card-body{
+.card-body-pl{
     padding: 25px;
     height: 100%;
     
 }
-.card{
+.card-plan{
     height: 100%;
     border: 1px solid grey;
     
@@ -198,7 +203,7 @@ h4{
 .blu{
     color: rgb(0, 97, 255);
 }
-.card-body > *{
+.card-body-pl > *{
     margin-top: 40px;
 }
 .card-button.button{
@@ -209,4 +214,26 @@ h4{
 }
 .ent-content{
     padding: 10px 0;
+}
+.button.bt-white{
+    background-color: white;
+    color: black;
+    border: 1px solid black;
+    display: inline-block;
+    line-height: 30px;
+}
+.partner--row > *{
+    padding: 12px;
+}
+.col-4.partner-content{
+    padding: 12px 30px;
+}
+.col-4.partner-content > *{
+    margin: 17px 0;
+}
+.col-4.col-bs{
+    padding: 12px;
+}
+.col-4.col-bs > *{
+    margin: 17px 0;
 }
