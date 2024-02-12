@@ -24,7 +24,7 @@ body{
     padding: 0 12px;
 }
 .container-lg{
-   max-width: 1924px;
+   max-width:100%
 }
 .container{
     max-width: 1224px;
@@ -95,7 +95,7 @@ body{
 }
 
 /*STYLE*/
-section:not(.page-header, .designit){
+section:not(.page-header, .designit, .footer){
     margin-bottom: 100px;
 }
 .page-header .header__container{
@@ -321,4 +321,25 @@ a.faq--sp{
     justify-content: space-between;
     margin: 40px 0;
     padding-right: 24px;
+}
+.row.row-footer{
+    color: white;
+    justify-content: space-between;
+}
+li.ft-item a {
+    color: currentColor;
+    text-decoration: none;
+}
+li.ft-item{
+    margin-top: 23px;
+}
+.footer{
+    padding: 100px 0;
+    background-color: black;
+    color: white;
+}
+.after::after{
+    content:"";
+    width: 300px;
+    border: 1px solid white;
 }
