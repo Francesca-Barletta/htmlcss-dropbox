@@ -49,9 +49,10 @@ body{
     width: calc(4* 100% / 12);
 }
 .col-6{
-  height: 50%;
-  width: 50%;
+  aspect-ratio: 1 /1;
+  width: calc(6* 100% / 12);
   display: flex;
+  min-width: 300px;
 
 }
 .hero .hero--row{
@@ -89,8 +90,8 @@ body{
 .col-4.col-4_6{
     display: flex;
     flex-wrap: wrap;
-    min-height: 633px;
     
+
 }
 
 /*STYLE*/
@@ -184,7 +185,7 @@ h4{
     border-bottom: 1px solid grey;
 }
 .card-body-pl{
-    padding: 25px;
+    padding: 27px;
     height: 100%;
     
 }
@@ -194,7 +195,7 @@ h4{
     
 }
 .col-4-plan, .col-4.plan-lg{
-    padding:12px;
+    padding:25px;
 }
 .container-sm.business-bottom{
     padding-bottom: 20px;
@@ -202,6 +203,7 @@ h4{
 .list-text{
     text-indent: -10px;
     margin-bottom: 20px;
+    font-size: 14px;
 }
 .list-check{
     text-indent: -17px;
@@ -278,14 +280,15 @@ h4{
 }
 .col-4.col-des{
     background-color: rgb(245, 245, 245);
-    padding: 45px;   
+    padding: 45px; 
+      
 }
 .col-des > *{
     margin-bottom: 45px;
 }
 .col-6 img{
     margin: auto;
-    padding: 75px;
+    width: 50%;
     filter: invert(100%);
 }
 .brand-color{
