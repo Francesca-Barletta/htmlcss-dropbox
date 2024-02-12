@@ -138,11 +138,18 @@ a.blue-a{
 main .hero{
     background-color: rgb(180, 208, 231);
 }
+
 .hero .hero--title{
     font-size: 80px;
     font-weight: 800;
     padding-top: 100px;
     
+}
+.button.hero-bt{
+    transition: background-color 1s;
+}
+.button.hero-bt:hover{
+    background-color:rgb(21, 21, 92);
 }
 .hero .hero--body{
     margin-top: 64px;
@@ -158,7 +165,7 @@ p, label{
 h3{
     font-size: 40px;
     font-weight: 700;
-    margin-bottom: 50px;
+    margin-bottom: 55px;
 }
 h4{
     font-size: 25px;
@@ -173,6 +180,7 @@ h4{
 }
 .container-sm.business-top{
     margin-bottom: 50px;
+    padding: 0 37px;
 }
 .ft-ms{
     margin-right: 45px;
@@ -182,7 +190,7 @@ h4{
     line-height: 38px;
 }
 .card-header-pl{
-    border-bottom: 1px solid grey;
+    border-bottom: 1px solid lightgray;
 }
 .card-body-pl{
     padding: 27px;
@@ -191,7 +199,7 @@ h4{
 }
 .card-plan{
     height: 100%;
-    border: 1px solid grey;
+    border: 1px solid lightgray;
     
 }
 .col-4-plan, .col-4.plan-lg{
@@ -300,7 +308,7 @@ h4{
     color: rgb(97, 8, 43);
 }
 .row.brand-row{
-    padding: 130px 0;
+    padding: 126px 0;
 }
 .button.bt-white.no-brd{
     border: none;
@@ -308,7 +316,7 @@ h4{
     margin: 15px 25px;
     padding: 10px 40px;
 }
-h3.bordeaux{
+.brand-tx h3.bordeaux{
     display: inline-block;
     margin-bottom: 0;
 }
@@ -330,6 +338,9 @@ li.ft-item a {
     color: currentColor;
     text-decoration: none;
 }
+div.footer-list > h4 {
+    padding: 10px 0;
+}
 li.ft-item{
     margin-top: 23px;
 }
@@ -337,9 +348,24 @@ li.ft-item{
     padding: 100px 0;
     background-color: black;
     color: white;
+    margin: 0 12px;
 }
 .after::after{
     content:"";
-    width: 300px;
-    border: 1px solid white;
+    width: 120px;
+    height: 1px;
+    background-color: white;
+    display: block;
+    margin-top: 114px;
+}
+.after-dark::after{
+    content:"";
+    width: 40px;
+    height: 1px;
+    background-color: lightgray;
+    display: block;
+    margin-top: 50px;
+}
+.footer-bt{
+    margin-top: 50px;
 }
