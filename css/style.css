@@ -24,7 +24,7 @@ body{
     padding: 0 12px;
 }
 .container-lg{
-   max-width:100%
+   max-width:1920px;
 }
 .container{
     max-width: 1224px;
@@ -46,13 +46,16 @@ body{
     align-items: center;
 }
 .col-4{
-    width: calc(4* 100% / 12);
+    max-width: calc(4* 100% / 12);
 }
 .col-6{
   aspect-ratio: 1 /1;
-  width: calc(6* 100% / 12);
+  
   display: flex;
-  min-width: 300px;
+  justify-content:center;
+  align-items: center;
+  height: 290px;
+  /* min-width: 300px;  */
 
 }
 .hero .hero--row{
@@ -102,8 +105,9 @@ body{
 .col-4.partner-img{
     flex-grow: 1;
 }
-.col-4.col-4_6{
+.school{
     display: flex;
+    justify-content:center;
     flex-wrap: wrap;
     
 
@@ -301,17 +305,20 @@ h4{
 .col-6.cl-yellow{
     background-color: rgb(255, 216, 48);
 }
-.col-4.col-des{
+.col-des{
+    width: calc(100% /3);
     background-color: rgb(245, 245, 245);
     padding: 45px; 
+    /* flex-grow: 1; */
       
 }
 .col-des > *{
     margin-bottom: 45px;
 }
 .col-6 img{
-    margin: auto;
+    margin: auto 70px; 
     width: 50%;
+    
     filter: invert(100%);
 }
 .brand-color{
